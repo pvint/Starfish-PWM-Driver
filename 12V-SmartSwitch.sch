@@ -1905,7 +1905,7 @@ RxD
 Text Notes 9350 4250 0    118  ~ 0
 I2C temp sensor
 $Comp
-L tc74a5:TC74A5 U4
+L 12V-SmartSwitch-rescue:TC74A5-tc74a5 U4
 U 1 1 5E7E8674
 P 10100 4900
 F 0 "U4" H 10100 5381 50  0000 C CNN
