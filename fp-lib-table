@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name 12V-SmartSwitch)(type KiCad)(uri /home/pvint/Electronics/12V-SmartSwitch)(options "")(descr ""))
+  (lib (name Starfish-PWM-Driver)(type KiCad)(uri /home/pvint/Electronics/Starfish-PWM-Driver)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
 )

@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name esp32-wroom-32)(type Legacy)(uri ${KIPRJMOD}/esp32-wroom-32.lib)(options "")(descr ""))
   (lib (name 12V-SmartSwitch-rescue)(type Legacy)(uri ${KIPRJMOD}/12V-SmartSwitch-rescue.lib)(options "")(descr ""))
+  (lib (name 2020-03-21_21-50-57)(type Legacy)(uri ${KIPRJMOD}/2020-03-21_21-50-57.lib)(options "")(descr ""))
 )
