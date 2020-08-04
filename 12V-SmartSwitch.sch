@@ -1960,43 +1960,6 @@ F 3 "~" H 4250 5750 50  0001 C CNN
 	1    4250 5750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R31
-U 1 1 5E937415
-P 4600 6000
-F 0 "R31" H 4670 6046 50  0000 L CNN
-F 1 "51k" H 4670 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4530 6000 50  0001 C CNN
-F 3 "~" H 4600 6000 50  0001 C CNN
-	1    4600 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R32
-U 1 1 5E93824E
-P 4600 6450
-F 0 "R32" H 4670 6496 50  0000 L CNN
-F 1 "22.1k" H 4670 6405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4530 6450 50  0001 C CNN
-F 3 "~" H 4600 6450 50  0001 C CNN
-	1    4600 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5E9387FE
-P 4600 6650
-F 0 "#PWR0124" H 4600 6400 50  0001 C CNN
-F 1 "GND" H 4605 6477 50  0000 C CNN
-F 2 "" H 4600 6650 50  0001 C CNN
-F 3 "" H 4600 6650 50  0001 C CNN
-	1    4600 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 6650 4600 6600
-Wire Wire Line
-	4600 5850 4600 5750
 Wire Wire Line
 	4600 5750 4400 5750
 Wire Wire Line
@@ -2065,20 +2028,9 @@ Wire Wire Line
 	5200 5600 5200 5750
 Connection ~ 5200 5750
 Wire Wire Line
-	4600 6300 4600 6200
-Wire Wire Line
-	4600 6200 4150 6200
-Wire Wire Line
-	4150 6200 4150 6600
-Wire Wire Line
-	4150 6600 2150 6600
-Wire Wire Line
 	2150 6600 2150 5850
 Wire Wire Line
 	2150 5850 2250 5850
-Connection ~ 4600 6200
-Wire Wire Line
-	4600 6200 4600 6150
 Wire Wire Line
 	1400 8050 1400 8900
 Wire Wire Line
@@ -2148,4 +2100,8 @@ Wire Wire Line
 	5850 5750 5200 5750
 Text Notes 4150 5500 0    50   ~ 0
 500mA
+Wire Wire Line
+	4600 5750 4600 6600
+Wire Wire Line
+	2150 6600 4600 6600
 $EndSCHEMATC
